@@ -1,0 +1,4 @@
+{
+  "case1": {"name": "test1","tel": 18312341234,"province": "江苏省","city": "南京市","county": "建邺区","address": "南京市梅花里520号","result": "新增成功"},
+  "case2": {"name": "test2","tel": "","province": "江苏省","city": "南京市","county": "建邺区","address": "南京市梅花里520号","result": "电话格式有误"}
+}

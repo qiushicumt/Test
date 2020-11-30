@@ -1,0 +1,4 @@
+{
+  "case1": {"username":"test1","password":"123456","result":"帐号不存在"},
+  "case2": {"username": "test01", "password": "1234567", "result": "密码错误"}
+}
