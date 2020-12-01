@@ -18,7 +18,8 @@ import logging
 start_dir=os.path.dirname(os.path.abspath(__file__))
 testsuite=unittest.defaultTestLoader.discover(start_dir=start_dir,pattern='test*.py')
 now=time.strftime("%Y-%m-%d %H_%M_%S")
-report="./report/result_"+now+".html"
+# report="./report/result_"+now+".html"
+report = start_dir + "\\report\\result_" + now + ".html"
 fp=open(report,'wb')
 
 log = start_dir+'\\log\\'+now+'_log.txt'  #日志的完整路径

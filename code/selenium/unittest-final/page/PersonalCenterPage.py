@@ -11,3 +11,11 @@ class PersonalCenterPage(BasePage):
         """
         self.by_css("#collapse-nav-base a[href*='useraddress']").click()
         time.sleep(1)
+
+    def into_MyInformation(self):
+        """
+        进入个人资料page
+        :return: None
+        """
+        self.by_css("#collapse-nav-base a[href*='personal']").click()
+        time.sleep(1)
