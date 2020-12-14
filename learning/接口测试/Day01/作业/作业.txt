@@ -1,0 +1,10 @@
+1.根据Agileone项目的接口文档，设计出接口功能测试用例,并且执行（至少10个以上）
+--考察点：接口用例
+2.使用postman测试聚合数据的任意一个接口
+https://www.juhe.cn/
+--考察点：REST接口
+3.挑选aone中，除了公告管理的任一模块，把模块里面的所有的接口在postman测试
+--考察点：抓包抓接口
+4.根据以下接口示例，完成调试
+http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx?op=getMobileCodeInfo
+--考察点：soap接口
